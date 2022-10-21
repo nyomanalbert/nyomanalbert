@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboardd">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfile"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/foto"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/txtUsername"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="IM PROFILE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/garis"
+        android:layout_width="match_parent"
+        android:layout_below="@id/txtUsername"
+        android:visibility="visible"
+        android:layout_marginTop="50dp"
+        android:layout_height="3dp"
+        android:background="#FF000000"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Nyoman Albert"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/m01"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/garis"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="225dp"
+            android:background="@drawable/m01"
+            />
+        <ImageView
+            android:id="@+id/m02"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/garis"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/m02"
+
+            />
+
+    <ImageView
+        android:id="@+id/m03"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/m01"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="225dp"
+        android:background="@drawable/m03"
+        />
+    <ImageView
+        android:id="@+id/m04"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/m02"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/m04"
+
+        />
+    <TextView
+        android:id="@+id/NMP"
+        android:layout_below="@id/m03"
+        android:text="5190311027_Nyoman Albert Kusuma"
+        android:textColor="#FF000000"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:textSize="19sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
